@@ -1,0 +1,84 @@
+<html>
+
+    <head>
+
+        <title>Dice Game</title>
+
+        <link rel="stylesheet" type="text/css" href="dice.css">
+
+        <script type="text/javascript" src="dice.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Luckiest+Guy" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Dice Game</h1>
+
+            <p>
+                The goal of the game is to get to five points. You get a point
+                by rolling higher than your opponent. Click "Roll" to roll the
+                dice, and "Reset" to reset the game.
+            </p>
+
+        </header>
+
+        <section>
+
+            <h1 id="winner"></h1>
+
+            <div id="game">
+
+                <div id="player">
+                    <h2>Your Score</h2>
+
+                    <h2 id="playerScore">0</h2>
+
+                    <h3>Your Roll</h3>
+
+                    <h4 id="playerRoll">-</h4>
+                </div>
+
+                <div id="computer">
+                    <h2>Opponent's Score</h2>
+
+                    <h2 id="computerScore">0</h2>
+
+                    <h3>Opponent's Roll</h3>
+
+                    <h4 id="computerRoll">-</h4>
+                </div>
+
+                <button onclick="roll()">Roll</button>
+
+                <button onclick="resetGame()">Reset</button>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <h3 id="Contact">Contact Me</h3>
+
+            <p>
+                Phone: (480) 316-2366 |
+                <a href="mailto:jpb249@nau.edu" target="_top">
+                    Email: jpb249@nau.edu
+                </a> |
+                Address: 940 East Jackson Drive, Flagstaff Arizona, 86001
+            </p>
+
+            <p class="copyright">
+                Copyright 2017 by James Beasley
+            </p>
+
+        </footer>
+
+    </body>
+
+</html>
